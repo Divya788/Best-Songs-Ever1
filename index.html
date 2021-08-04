@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <header>
+      <nav>
+        <a href="index.html"><img src= "logo.png" width =   90px></a>
+        <ul>
+          <li><a href = "GTS.html">Can You Guess The Song?</a></li>
+          <li><a href = "WATB.html">Song Ranking</a></li>
+          <li><a href = "FTL.html">Finish The Lyrics</a></li>
+          <li><a href = "artists.html">Artists</a></li>
+          <li><button class = "callbutton" onclick = "CallToAction()">Find Good Songs Now</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <img src = "title.png" width = "100%">
+
+    <div class="portfolio">
+
+    <div class="gallery">
+      <a href = "taylor.html"><img src="tay.jpeg" width="600" height="400"></a>
+      <div class="desc">Taylor Swift</div>
+    </div>
+
+    <div class="gallery">
+      <a href = "ava.html"><img src="ava.jpg" width="600" height="400"></a>
+      <div class="desc">Ava Max</div>
+    </div>
+    
+    <div class="gallery">
+      <a href = "selena.html"><img src="Selena.jpg" width="600" height="400"></a>
+      <div class="desc">Selena Gomez</div>
+    </div>
+
+    <div class="gallery">
+      <a href = "marshmello.html"><img src="mm.jpg" width="600" height="400"></a>
+      <div class="desc">Marshmello</div>
+    </div>
+    
+    <div class="gallery">
+      <a href = "alan.html"><img src="alan.jpg" width="600" height="400"></a>
+      <div class="desc">Alan Walker</div>
+    </div>
+
+    <div class="gallery">
+      <a href = "ed.html"><img src="Ed.jpg" width="600" height="400"></a>
+      <div class="desc">Ed Sheeran</div>
+    </div>
+
+    <div class="gallery">
+      <a href = "1d.html"><img src="1d.jpg" width="600" height="400"></a>
+      <div class="desc">One Direction</div>
+    </div>
+
+    <div class="gallery">
+      <a href = "shawn.html"><img src="shawn.jpg" width="600" height="400"></a>
+      <div class="desc">Shawn Mendes</div>
+    </div>
+    </div>  
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="canyoufinish">
+
+      <div class="img1">
+        <a href="FTL.html"><img src="karaoke.jpg" width="600px"></a>
+        </div>
+      <br><br><br><br><br>
+      <h2>Can you finish the lyrics?</h2>
+      <br>
+      <p>If you want to test your luck, click on the picture on the side, or go to 'Finish the Lyrics' on the top.</p>
+      <br><br><br><br><br><br><br>
+
+    </div>
+
+    <div class="ranking">
+      
+      <div class="img2">
+        <a href="WATB.html"><img src="sheetm.jpg" width="600px"></a>
+      </div>
+      <br><br><br><br><br><br><br>
+      <h2>Want to know what the best songs is?</h2>
+      <br><br>
+      <p>Click the picture on the right to find a list of the best songs and why they are so good!</p>
+      <br><br><br><br><br><br><br>
+
+    </div>
+
+    <div class="container">
+      <div style="text-align:center">
+        <br>
+        <h2>Contact Me</h2>
+        <p>My name is Divya Chama, and I love music.</p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="IMG_8982.JPG" style="width:100%">
+        </div>
+
+        <div class="column">
+            <form onsubmit="displaySubmitMessage()">
+            <label for="name" class="formQues">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email...">
+
+            <label for="country">Favorite Artist</label>
+
+            <select id="country" name="country">
+              <option value="australia">Ava Max</option>
+              <option value="canada">Shawn Mendes</option>
+              <option value="usa">Selena Gomez</option>
+              <option value="australi">Alan Walker</option>
+              <option value="austral">Marshmello</option>
+              <option value="austra">Taylor Swift</option>
+              <option value="austr">Ed Sheeran</option>
+              <option value="aust">One Direction</option>
+            </select>
+
+            <label for="favcolor" >What is your favorite color?</label>
+            <br><br>
+            <input type="color" id="favcolor" name="favcolor">
+            <br><br>
+
+            <label for="subject">Question/Suggestion/Concern</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
+
+            <label for="subject">What do you think of my website?</label>
+            <textarea id="subject" name="subject" placeholder="Be honest..." style="height:100px"></textarea>
+
+            <input type="submit" value="Submit" id="submitBtn">
+            <p id = "showMessage"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
